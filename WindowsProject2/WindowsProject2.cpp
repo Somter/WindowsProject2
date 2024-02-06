@@ -36,7 +36,7 @@ INT WINAPI _tWinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPTSTR lpszCmdLine, i
 		int id = MessageBox(0, buffer, TEXT("Игра"), MB_OKCANCEL | MB_ICONINFORMATION);
 		counter++;
 
-		if (id == IDOK) {	
+		if (id == IDOK) {	 
 			game = false;	
 			TCHAR bufferCounter[10];
 			_stprintf_s(bufferCounter, TEXT("%d"), counter);
